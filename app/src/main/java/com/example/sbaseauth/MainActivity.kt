@@ -121,6 +121,7 @@ fun Greeting(modifier: Modifier = Modifier) {
                 "Botão foi clicado!",
                 Toast.LENGTH_SHORT
             ).show()
+
             showMessage = false // Reseta o estado após mostrar o Toast
         }
 
